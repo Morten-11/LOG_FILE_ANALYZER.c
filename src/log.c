@@ -2,6 +2,7 @@
 #include <memory.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 LogEntry create_log_struct(const char* log_infos){
     LogEntry new_log;
