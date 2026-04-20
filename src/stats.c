@@ -35,9 +35,9 @@ LevelStats count_levels(const LogEntry* Logs, int log_count){
         
                 array_levels = temp;
 
-                if (array_levels[j].count > Stats.max_count){
-                    Stats.max_count = array_levels[j].count;
-                    strcpy(Stats.most_common, array_levels[j].level);
+                if (array_levels[size_of_array].count > Stats.max_count){
+                    Stats.max_count = array_levels[size_of_array].count;
+                    strcpy(Stats.most_common, array_levels[size_of_array].level);
                 }
 
                 strcpy(array_levels[size_of_array].level, Logs[i].level);
