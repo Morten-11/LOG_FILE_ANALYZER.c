@@ -19,6 +19,6 @@ typedef struct {
 
 LevelStats count_levels(const LogEntry* Logs, int log_count);
 
-void write_stats(const LevelCount* levels, int count);
+void write_stats(const LevelStats levels);
 
 #endif
